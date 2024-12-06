@@ -5,7 +5,7 @@ $blue-color: #549EF2;
 $cyan-color: #44D3D2;
 $very-dark-blue-color: #4D4F62;
 // $grayish-blue-color: ;
-// $very-light-gray: ;
+$very-light-gray: #F2F2F2;
 /* Colors for interactions */
 
 /* Typography */
@@ -15,4 +15,8 @@ $very-dark-blue-color: #4D4F62;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.service {
+  padding: 80px 165px;
 }
