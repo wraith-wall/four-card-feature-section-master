@@ -3,12 +3,14 @@ $red-color: #EA5454;
 $orange-color: #FCAE4A;
 $blue-color: #549EF2;
 $cyan-color: #44D3D2;
+$white-color: #FFF;
 $very-dark-blue-color: #4D4F62;
 // $grayish-blue-color: ;
-$very-light-gray: #F2F2F2;
+$very-light-gray: #FAFAFA;
 /* Colors for interactions */
 
 /* Typography */
+$poppins-family-font: 'Poppins', sans-serif;
 
 /* Base */
 * {
@@ -19,4 +21,46 @@ $very-light-gray: #F2F2F2;
 
 .service {
   padding: 80px 165px;
+  background-color: $very-light-gray;
+  height: 100vh;
+  font-family: $poppins-family-font;
+
+  &__overview {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.01em;
+
+    &-title {
+      font-weight: 300;
+      font-size: 36px;
+      letter-spacing: 0.01em;
+      color: $very-dark-blue-color;
+    }
+
+    &-subtitle {
+      font-weight: 600;
+      font-size: 36px;
+      letter-spacing: 0.01em;
+      color: $very-dark-blue-color;
+    }
+
+    &-descr {
+      margin-top: 16px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 167%;
+      letter-spacing: 0.01em;
+      color: $very-dark-blue-color;
+      opacity: 0.5;
+    }
+  }
+
+  &__feature {
+    width: 350px;
+    height: 250px;
+    background-color: $white-color;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
+  }
+
 }
