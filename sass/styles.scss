@@ -21,7 +21,7 @@ $poppins-family-font: 'Poppins', sans-serif;
 body {
   padding: 80px 165px;
   background-color: $very-light-gray;
-  height: 100vh;
+  min-height: 100%;
   font-family: $poppins-family-font;
 }
 
