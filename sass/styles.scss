@@ -143,3 +143,41 @@ body {
     }
   }
 }
+
+@media (max-width: 1400px) {
+  .service {
+    &__overview {
+      &-title {
+        font-size: 24px;
+      }
+
+      &-subtitle {
+        font-size: 24px;
+      }
+    }
+
+    &__features {
+      margin-top: 76px;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    &__feature {
+      width: 311px;
+      height: 222px;
+      margin: 0;
+      padding: 27px;
+
+      &-img {
+        width: 57px;
+        height: 57px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 85px 32px 78px 32px;
+  }
+}
