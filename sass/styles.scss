@@ -18,19 +18,21 @@ $poppins-family-font: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
-.service {
+body {
   padding: 80px 165px;
   background-color: $very-light-gray;
   height: 100vh;
   font-family: $poppins-family-font;
+}
 
+.service {
   &__overview {
     text-align: center;
     font-size: 36px;
     letter-spacing: 0.01em;
 
     &-title {
-      font-weight: 300;
+      font-weight: 100;
       font-size: 36px;
       letter-spacing: 0.01em;
       color: $very-dark-blue-color;
@@ -44,7 +46,7 @@ $poppins-family-font: 'Poppins', sans-serif;
     }
 
     &-descr {
-      margin-top: 16px;
+      margin-top: 11px;
       font-weight: 400;
       font-size: 15px;
       line-height: 167%;
