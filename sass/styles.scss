@@ -54,6 +54,10 @@ body {
       color: $very-dark-blue-color;
       opacity: 0.5;
     }
+
+    &-short {
+      display: none;
+    }
   }
 
   &__features {
@@ -154,6 +158,10 @@ body {
       &-subtitle {
         font-size: 24px;
       }
+
+      &-short {
+        display: none;
+      }
     }
 
     &__features {
@@ -179,5 +187,26 @@ body {
 @media (max-width: 600px) {
   body {
     padding: 85px 32px 78px 32px;
+  }
+
+  .service__overview-short {
+    display: none;
+  }
+}
+
+
+@media (max-width: 376px) {
+  .service__overview-descr {
+    display: none;
+  }
+
+  .service__overview-short {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    letter-spacing: 0.01em;
+    color: $very-dark-blue-color;
+    opacity: 0.5;
   }
 }
